@@ -82,7 +82,7 @@ export function TennisZone() {
         </div>
       </div>
       <div className="picture-div">
-        <img className="picture" src="../../../public/tennis.png" alt="" />
+        <img className="picture" src="/tennis.png" alt="" />
       </div>
     </div>
   );

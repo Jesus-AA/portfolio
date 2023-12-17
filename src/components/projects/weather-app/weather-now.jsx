@@ -53,7 +53,7 @@ export function WeatherApp() {
           </div>
         </div>
         <div className="picture-div">
-          <img className="picture" src="../../../public/cloudy.png" alt="" />
+          <img className="picture" src="/cloudy.png" alt="" />
         </div>
       </div>
     </>

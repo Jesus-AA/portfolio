@@ -6,7 +6,7 @@ export function HomeHub() {
       <div className="description">
         <a
           target="_blank"
-          href="https://tennis-zone.netlify.app/"
+          href="https://aibnbclone.netlify.app/"
           rel="noreferrer"
         >
           <h3 className="description--title">HomeHub</h3>
@@ -77,7 +77,7 @@ export function HomeHub() {
         </div>
       </div>
       <div className="picture-div">
-        <img className="picture" src="../../../public/house.png" alt="" />
+        <img className="picture" src="/house.png" alt="" />
       </div>
     </div>
   );

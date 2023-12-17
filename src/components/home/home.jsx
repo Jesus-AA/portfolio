@@ -49,7 +49,7 @@ export function Home() {
           <img
             className="
           home__section__gif"
-            src="../../public/docubyte-i-am-a-computer-designboom-010.gif"
+            src="/docubyte-i-am-a-computer-designboom-010.gif"
             alt="A computer gif."
           />
         </div>
