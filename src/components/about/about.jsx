@@ -16,7 +16,7 @@ export function About() {
             movies🎞️.
           </p>
         </article>
-        <img className="about__section--img" src="../../public/me.JPG" />
+        <img className="about__section--img" src="/me.JPG" />
       </section>
     </>
   );
