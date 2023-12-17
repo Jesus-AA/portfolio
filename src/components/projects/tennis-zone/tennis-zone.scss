@@ -1,0 +1,89 @@
+.project {
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+
+  width: 100%;
+  height: 100%;
+  .description {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+
+    align-content: center;
+    .description--title {
+      font-size: 1.5rem;
+      color: black;
+    }
+    .description--subtitle {
+      color: black;
+    }
+    .description--title:hover {
+      text-decoration: underline;
+    }
+    .description--text {
+      font-size: 1.2rem;
+    }
+
+    .description__stack__list {
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+
+      .description__list--items {
+        width: 25px;
+      }
+    }
+
+    .description__repositories {
+      display: flex;
+      gap: 2rem;
+      .description__repositories__frontend {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        flex-direction: column;
+
+        h6 {
+          font-size: 1rem;
+        }
+        .description--github {
+          font-size: 2rem;
+          color: black;
+        }
+      }
+      .description__repositories__backend {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        flex-direction: column;
+
+        h6 {
+          font-size: 1rem;
+        }
+        .description--github {
+          font-size: 2rem;
+          color: black;
+        }
+      }
+    }
+  }
+
+  a:link,
+  a:visited {
+    text-decoration: none;
+  }
+
+  .picture-div {
+    align-content: center;
+    .picture {
+      width: 200px;
+
+      border-radius: 2rem;
+      cursor: pointer;
+    }
+  }
+}

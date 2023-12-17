@@ -1,0 +1,22 @@
+.about__section {
+  display: flex;
+  padding: 3rem 4rem 2rem 4rem;
+
+  gap: 10rem;
+  .about__section__article {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+  }
+  .about__section--title {
+    font-size: 2rem;
+    letter-spacing: 1.5px;
+  }
+  .about__section__article--text {
+    font-size: 1.5rem;
+  }
+  .about__section--img {
+    width: 300px;
+    border-radius: 4rem;
+  }
+}
