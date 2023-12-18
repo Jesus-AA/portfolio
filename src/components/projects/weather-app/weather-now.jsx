@@ -1,4 +1,5 @@
 import { FaGithub } from 'react-icons/fa';
+import { TiWeatherPartlySunny } from 'react-icons/ti';
 import './weatherapp.scss';
 
 export function WeatherApp() {
@@ -53,7 +54,7 @@ export function WeatherApp() {
           </div>
         </div>
         <div className="picture-div">
-          <img className="picture" src="/cloudy.png" alt="" />
+          <TiWeatherPartlySunny className="icon tennis-ball" />
         </div>
       </div>
     </>

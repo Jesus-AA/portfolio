@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import { FaGithub } from 'react-icons/fa';
+import { GiHouse } from 'react-icons/gi';
 export function HomeHub() {
   return (
     <div className="project">
@@ -77,7 +78,7 @@ export function HomeHub() {
         </div>
       </div>
       <div className="picture-div">
-        <img className="picture" src="/house.png" alt="" />
+        <GiHouse className="icon tennis-ball" />
       </div>
     </div>
   );

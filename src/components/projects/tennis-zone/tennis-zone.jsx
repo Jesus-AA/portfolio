@@ -1,3 +1,4 @@
+import { BiSolidTennisBall } from 'react-icons/bi';
 import { FaGithub } from 'react-icons/fa';
 import './tennis-zone.scss';
 export function TennisZone() {
@@ -82,7 +83,7 @@ export function TennisZone() {
         </div>
       </div>
       <div className="picture-div">
-        <img className="picture" src="/tennis.png" alt="" />
+        <BiSolidTennisBall className="icon tennis-ball" />
       </div>
     </div>
   );

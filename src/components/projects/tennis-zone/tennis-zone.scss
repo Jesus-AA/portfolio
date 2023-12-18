@@ -79,11 +79,13 @@
 
   .picture-div {
     align-content: center;
-    .picture {
-      width: 200px;
-
-      border-radius: 2rem;
-      cursor: pointer;
+    display: flex;
+    .icon {
+      font-size: 12rem;
+      align-self: center;
+    }
+    .tennis-ball:hover {
+      color: #a7bea9;
     }
   }
 }
