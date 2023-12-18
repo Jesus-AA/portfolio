@@ -12,8 +12,8 @@ export function About() {
             during my time at university. Since then, I have been exploring
             technologies on my freetime and furthering my skills through a Full
             Stack Web Development bootcamp at ISDI Coders in Madrid. My hobbies
-            are playing football⚽ and tennis🎾. Also I like anime and sci-fi
-            movies🎞️.
+            are playing football⚽ and tennis🎾 and also watching anime and
+            sci-fi movies🎞️.
           </p>
         </article>
         <img className="about__section--img" src="/me.JPG" />
